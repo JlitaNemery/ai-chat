@@ -11,14 +11,16 @@
 - old messages are stored in local storage
 - I decided to use a context for global state instead of an external library.
 - I made a `/help` command to tell the user about the app
+- testing - I did not have allot of time so did just a little bit of it with vitest and playwrite
 
 # nice additions
 
 if I had more time i would add:
 
-1. testing
-2. storing and getting the old messages from an api with pagination and infinate scroll (with react virtualized to not overload the dom)
+1. more testing
+2. storing and getting the old messages from an api (backend) with pagination and infinate scroll (with react virtualized to not overload the dom)
 3. log in
+4. animations on message bubble
 
 # Run
 
@@ -26,3 +28,8 @@ if I had more time i would add:
 - I put a .env.example file - put you api key in `VITE_GROQ_API_KEY`
 - make sure to have node v22.9.0 and npm 11.1.0 installed (I recommend using nvm or other node version managers)
 - to run the app localy `npm install npm run dev`
+- to run tests `npm run test`
+
+# live app
+
+go to `https://ai-chat-olive-nine.vercel.app/`
